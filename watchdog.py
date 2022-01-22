@@ -62,5 +62,4 @@ if __name__ == '__main__':
     else:
        # html = "<!DOCTYPE html><html><head></head><body><p>This temp is below the 85C thermal ceiling.</p><i> Edit /home/pi/watchdog/watchdog.py to alert only if the temp rises above a certain value.</i></body></html>".format(temp_celcius,temp_fahrenheight)
         #thermal_pass = thermal_pass_str(temp_celcius, temp_fahrenheight)
-        #email_notify("nicktestnotify@gmail.com", "nick.rabbott@gmail.com", thermal_pass, html)
         pass
