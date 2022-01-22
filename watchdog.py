@@ -3,7 +3,7 @@ Excerpt from Rasberry Pi 3 Datasheet
 The voltage and frequency are throttled back when the CPU load reduces back to an ’idle’ level OR when the silicon
 temperature as mesured by the on-chip temperature sensor exceeds 85C (thermal throttling).
 
-Checks system temperature and alerts via email if the value is nearing the 85C.
+Checks system temperature and alerts via email if the value is nearing the 60C (just to be safe)..
 """
 
 import subprocess
